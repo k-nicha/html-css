@@ -1,0 +1,26 @@
+/* selektori i svojstva */
+/* tri tipa na selektori: 
+  1. selekcija spored tip na element (tag)
+  2. selekcija spored ID na element 
+  3. selekcija spored CLASS na element
+*/
+
+#submit-button {
+  background-color: green;
+  color: white;
+}
+
+.user-input, .vtor-selektor {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 500px;
+  height: 150px;
+}
+
+.separator {
+  margin-bottom: 10px;
+}
+
