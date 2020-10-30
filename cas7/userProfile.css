@@ -1,0 +1,92 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+}
+
+.main-container > div {
+  margin-bottom: 2rem;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: darkslategrey;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.name {
+  font-size: 1.5rem;
+}
+
+.profile-id {
+  text-align: center;
+}
+
+.profile-id img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  width: 60%;
+}
+
+.profile-data table tr td:nth-child(2) {
+  text-align: right;
+}
+
+.profile-description {
+  text-align: center;
+  color: #6D6D6D;
+}
+
+.profile-description a {
+  text-decoration: none;
+}
+
+.tags a {
+  text-decoration: none;
+  color: #6D6D6D;
+  padding: 0.25rem;
+  background-color: #f2f2f2;
+  border-radius: 0.25rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .header {
+    justify-content: center;
+  }
+
+  .header div:first-child {
+    margin-right: 1.5rem;
+  }
+
+  .header div:last-child {
+    margin-left: 1.5rem;
+  }
+
+  .profile-id {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .profile-id img {
+    width: 20%;
+    margin: 0 2rem 0 0;
+  }
+
+}
