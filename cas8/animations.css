@@ -1,0 +1,18 @@
+.animated-iframe {
+  width: 50vw;
+  height: 50vh;
+  margin-left: 25vw;
+  opacity: 1;
+  animation: fade-in 300ms;
+}
+
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
